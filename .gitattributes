@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.svg filter=lfs diff=lfs merge=lfs -text
+MeusProjetos/Landing-Page-Balle-bot/landing-page-exemplo/*svg filter=lfs diff=lfs merge=lfs -text
